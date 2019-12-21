@@ -1,0 +1,30 @@
+.dropdown>.dropdown-menu {
+  top: 200%;
+  transition: 0.3s all ease-in-out;
+}
+.dropdown:hover>.dropdown-menu {
+  display: flex;
+  top: 100%;
+  background-color: white;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown-item:hover{
+    background-color: yellow;
+}
+.nav-item dropdown{
+    padding-left: 20px;
+}
+
+body{
+	background-attachment: fixed;
+	background-repeat: none;
+  background: orange;
+	
+}
+nav .navbar{
+  background: orange;
+}
